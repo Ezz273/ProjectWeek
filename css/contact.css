@@ -1,0 +1,93 @@
+body{
+    background-color: #333333;
+    font-family: Inter;
+    color: white;
+}
+nav {
+    display: flex;
+    border-bottom: 2px solid black;
+    height: 75px;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #2c2a2a;
+}
+
+a {
+    text-decoration: none;
+}
+
+#nav-logo {
+    display: flex;
+    gap: 12px;
+    font-size: 32px;
+    margin-left: 55px;
+    color: #6d71b1;
+    filter: drop-shadow(black 3px 2px);
+}
+
+#nav-paginas {
+    display: flex;
+    gap: 24px;
+}
+
+#nav-actieve-pagina {
+    color: #e6b900;
+    font-size: 20px;
+}
+
+.nav-overige-pagina {
+    color: #F3F1E7;
+    font-size: 20px;
+}
+.main{
+    display: flex;
+    justify-content: space-around;
+}
+.title{
+    color:#e6b900;
+    padding-left: 40px;
+}
+.grijze-blok{
+    background-color: #444444;
+    width: 250px;
+    margin-top: 70px;
+    border-radius: 20px;
+    padding: 20px;
+}
+#media{
+    display: flex;
+    justify-content: space-around;
+}
+#terug{
+    padding-left: 0px;
+}
+#back{
+    padding-left: 0px;
+}
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 500px;
+    background-color: #444444;
+    border-radius: 20px;
+    margin: 50px;
+    padding: 20px;
+}
+
+input, textarea {
+    padding: 10px;
+}
+
+button {
+    padding: 10px;
+    background-color: #F0C928;
+    border: none;
+}
+.img{
+    margin-top: 20px;
+    width: 500px;
+}
+.flex{
+    display: flex;
+}

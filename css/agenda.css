@@ -1,0 +1,98 @@
+body{
+    margin-left: 30px;
+    background-color: #333333;
+    font-family: Inter;
+    color: white;
+}
+nav {
+    display: flex;
+    border-bottom: 2px solid black;
+    height: 75px;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #2c2a2a;
+}
+
+a {
+    text-decoration: none;
+}
+
+#nav-logo {
+    display: flex;
+    gap: 12px;
+    font-size: 32px;
+    margin-left: 55px;
+    color: #6d71b1;
+    filter: drop-shadow(black 3px 2px);
+}
+
+#nav-paginas {
+    display: flex;
+    gap: 24px;
+}
+
+#nav-actieve-pagina {
+    color: #e6b900;
+    font-size: 20px;
+}
+
+.nav-overige-pagina {
+    color: #F3F1E7;
+    font-size: 20px;
+}
+.title{
+    color:#e6b900;
+}
+.opendagen{
+    display: flex;
+    justify-content: space-between;
+    background-color: #444444;
+    width: 1000px;
+    height: 110px;
+    border-radius: 10px;
+    align-items: center;
+    padding-right: 10px;
+    margin-bottom: 10px;
+}
+.open-dag{
+    font-size: 20px;
+    margin-bottom: 15px;
+    margin-left: 5px;
+    padding-top: 10px;
+    font-weight: bold;
+}
+.dag{
+    margin-bottom: 15px;
+    margin-left: 5px;
+    color:	#CCCCCC ;
+}
+
+.tijd{
+    margin-bottom: 15px;
+    margin-left: 5px;
+}
+.openingstijden{
+    display: flex;
+    justify-content: space-between;
+    background-color: #444444;
+    width: 500px;
+    height: 110px;
+    border-radius: 10px;
+    align-items: center;
+    padding-right: 10px;
+    margin-bottom: 10px;
+}
+#openingstijden{
+    display: flex;
+}
+#openingstijden-links{
+    width: 50%;
+}
+.foto{
+    padding-top: 90px;
+    padding-right: 20px;
+    
+}
+.foto img{
+    border-radius: 20px;
+}

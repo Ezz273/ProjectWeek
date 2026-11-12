@@ -1,0 +1,60 @@
+body{
+    background-color: #333333;
+    font-family: Inter;
+    color: white;
+}
+nav {
+    display: flex;
+    border-bottom: 2px solid black;
+    height: 75px;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #2c2a2a;
+}
+#nav-logo {
+    display: flex;
+    gap: 12px;
+    font-size: 32px;
+    margin-left: 55px;
+    color: #6d71b1;
+    filter: drop-shadow(black 3px 2px);
+}
+a {
+    text-decoration: none;
+}
+#nav-paginas {
+    display: flex;
+    gap: 24px;
+}
+
+#nav-actieve-pagina {
+    color: #e6b900;
+    font-size: 20px;
+}
+
+.nav-overige-pagina {
+    color: #F3F1E7;
+    font-size: 20px;
+}
+.box-flex{
+    display: flex;
+    justify-content: space-between;
+    background-color: #444444;
+    padding: 10px;
+    padding-left: 40px;
+    padding-right: 40px;
+    margin:10px;
+    border-radius: 24px;
+}
+.set60per{
+    width: 60%;
+}
+h1{
+    color:orange
+}
+h3{
+    color:#ffa
+}
+#stages .box-flex div{
+    width: 15%;
+}
